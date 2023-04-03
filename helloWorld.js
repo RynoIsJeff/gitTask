@@ -1,3 +1,7 @@
-console.log('Git is Awesome!')
-user_input = input('Enter some data: ')
-print('You entered: ', user_input)
+console.log('Git is Awesome!');
+let userInput = prompt('Enter some data:');
+if (userInput) {
+  console.log('You entered: ', userInput);
+} else {
+  console.log('No data entered');
+}
